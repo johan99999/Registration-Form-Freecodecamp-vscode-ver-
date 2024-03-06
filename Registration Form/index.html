@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <h5>Please fill out this form with the information</h5>
+<div class="container">
+    <form>
+    <p>Enter Your First Name:</p>
+    <input class="input" type="text" id="fname">
+    <p>Enter Your Last Name:</p>
+    <input class="input" type="text" id="lname">
+    <p>Enter Your Email:</p>
+    <input class="input" type="text" id="email">
+    <p>Create a New Password:</p>
+    <input class="input" type="text" id="pass">
+</div>
+
+<div class="container2">
+    <p>Account type</p>
+    <br>
+    <br>
+    <input type="radio" id="personal" name="porb" value="personal"><label>Personal</label>
+    <br>
+    <input type="radio" id="business" name="porb" value="business"><label>Business</label>
+    <br>
+    <br>
+    <br>
+    <hr>
+    
+</div>
+<br>
+<div class="container3">
+    <p>Upload a profile picture:</p>
+    <input class="input" type="file" id="profile">
+    <p>Input Your age (years):</p>
+    <input class="input" type="number" id="age" min="0">
+    <p>How did you hear about us?</p>
+    <div class="selects">
+    <select id="inf" name="inf">
+        <option value="selectone">(select one)</option>
+        <option value="fccnews">Freecodecamp News</option>
+        <option value="fccyt">Freecodecamp Youtube Channel</option>
+        <option value="fccf">Freecodecamp forum</option>
+        <option value="other">Other</option>
+    </select>
+</div>
+    <p>Provide a bio:</p>
+    <textarea>
+I like coding on the beach...
+    </textarea>
+    <br>
+    <br>
+    <br>
+
+    <input type="checkbox" id="accept" value="accept"><label value="accept">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+    <br>
+    <br>
+    <br>
+    <input type="button" id="submit" value="Submit">
+</div>
+</form>
+</body>
+
+
+
+
+
+</html>
